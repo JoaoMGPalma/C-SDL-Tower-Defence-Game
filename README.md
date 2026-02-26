@@ -9,14 +9,13 @@ Key Features
 - Horde AI: Enemies feature automated movement, health bars, and collision-based damage logic against the player's castle.
 
 Technical Architecture
-The project follows a clean Object-Oriented Programming (OOP) structure:
-- GameObject / Character: Base classes that handle positioning, health, and basic movement.
-- GameManager: The "brain" of the game. It manages the life cycle of arrows and enemies, detects collisions, and tracks the game state (Waves, Game Over).
-- Legolas & Enemy: Implementation of specific behaviors, including custom primitive-based rendering for characters.
-- MiniGfx.h: An abstraction layer that hides SDL2 boilerplate, making the game code more readable and maintainable.
+-The project follows a clean Object-Oriented Programming (OOP) structure:
+  - GameObject / Character: Base classes that handle positioning, health, and basic movement.
+  - GameManager: The "brain" of the game. It manages the life cycle of arrows and enemies, detects collisions, and tracks the game state (Waves, Game Over).
+  - Legolas & Enemy: Implementation of specific behaviors, including custom primitive-based rendering for characters.
+  - MiniGfx.h: An abstraction layer that hides SDL2 boilerplate, making the game code more readable and maintainable.
 
 Installation & Building
-
 - C++17 Compiler (GCC/Clang/MSVC)
 - SDL2 Development Libraries - https://github.com/libsdl-org/SDL/releases
 - SDL2_image Development Libraries - https://github.com/libsdl-org/SDL_image/releases
