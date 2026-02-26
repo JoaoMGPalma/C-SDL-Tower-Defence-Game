@@ -15,12 +15,10 @@ The project follows a clean Object-Oriented Programming (OOP) structure:
 - Legolas & Enemy: Implementation of specific behaviors, including custom primitive-based rendering for characters.
 - MiniGfx.h: An abstraction layer that hides SDL2 boilerplate, making the game code more readable and maintainable.
 
-Installation & Building\n
-Prerequisites
+Installation & Building
+
 C++17 Compiler (GCC/Clang/MSVC)
-
 SDL2 Development Libraries - https://github.com/libsdl-org/SDL/releases
-
 SDL2_image Development Libraries - https://github.com/libsdl-org/SDL_image/releases
 
 <img width="800" height="602" alt="image" src="https://github.com/user-attachments/assets/c3997890-0d40-4442-a926-4ccbe5e6a753" />
