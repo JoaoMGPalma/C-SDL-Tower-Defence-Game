@@ -1,0 +1,96 @@
+# depslib dependency file v1.0
+1770306716 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/main.cpp
+	<vector>
+	<cstdlib>
+	<ctime>
+	<SDL2/SDL.h>
+	<random>
+	"Background.h"
+	"GameManager.h"
+	"DrawText.h"
+
+1769194561 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/MiniGfx.h
+	"MiniGfx.h"
+	<iostream>
+	<array>
+	<chrono>
+	<cmath>
+	<functional>
+	<random>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	<vector>
+
+1769637054 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Enemy.h
+	"Character.h"
+
+1770146528 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Character.h
+	"GameObject.h"
+	"Vec2D.h"
+
+1770146528 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/GameObject.h
+	"Vec2D.h"
+	"MiniGfx.h"
+
+1768590930 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Vec2D.h
+
+1768589966 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/MovableObject.h
+
+1769793779 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Background.h
+	"MiniGfx.h"
+
+1770306179 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/Character.cpp
+	"Character.h"
+
+1770147482 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/Enemy.cpp
+	"RandomFunc.h"
+	"Enemy.h"
+
+1769194078 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/RandomFunc.h
+	<random>
+
+1769194078 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/RandomFunc.cpp
+	"RandomFunc.h"
+
+1769691361 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/Castle.cpp
+	"Castle.h"
+	"DrawText.h"
+
+1770306716 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Castle.h
+	"Character.h"
+	"Vec2D.h"
+
+1770147681 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/GameManager.h
+	"Legolas.h"
+	"Enemy.h"
+	"Castle.h"
+	"Arrow.h"
+	"RandomFunc.h"
+	"DrawText.h"
+
+1770308751 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/GameManager.cpp
+	"GameManager.h"
+
+1770152729 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Legolas.h
+	"Vec2D.h"
+	"Character.h"
+
+1770308590 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/Legolas.cpp
+	"Legolas.h"
+
+1770306766 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/Arrow.h
+	"Character.h"
+
+1769623693 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/Arrow.cpp
+	"Arrow.h"
+
+1770147957 /home/jp/SDL_Project/TD_Legolas/TD_Legolas/include/DrawText.h
+	"MiniGfx.h"
+
+1770147482 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/DrawText.cpp
+	"DrawText.h"
+
+1769793730 source:/home/jp/SDL_Project/TD_Legolas/TD_Legolas/src/Background.cpp
+	"Background.h"
+

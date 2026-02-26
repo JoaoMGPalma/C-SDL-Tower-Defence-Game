@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TD_Legolas" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TD_Legolas" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(PROJECT_DIR)" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="TD_Legolas" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="$(PROJECT_DIR)" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+		</Linker>
+		<Unit filename="include/Arrow.h" />
+		<Unit filename="include/Background.h" />
+		<Unit filename="include/Castle.h" />
+		<Unit filename="include/Character.h" />
+		<Unit filename="include/DrawText.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/GameManager.h" />
+		<Unit filename="include/GameObject.h" />
+		<Unit filename="include/Legolas.h" />
+		<Unit filename="include/MiniGfx.h" />
+		<Unit filename="include/MovableObject.h" />
+		<Unit filename="include/RandomFunc.h" />
+		<Unit filename="include/Vec2D.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Arrow.cpp" />
+		<Unit filename="src/Background.cpp" />
+		<Unit filename="src/Castle.cpp" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/DrawText.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/GameManager.cpp" />
+		<Unit filename="src/Legolas.cpp" />
+		<Unit filename="src/RandomFunc.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
