@@ -4,7 +4,6 @@ A 2D action-defense game built in C++ and SDL2. Defend your castle from waves of
 Key Features
 - Custom Graphics Engine: Powered by MiniGfx, a custom lightweight single-header wrapper for SDL2 that simplifies window management, event handling, and 2D primitive rendering.
 - Procedural Backgrounds: A dynamic environment system that generates sky gradients, clouds, mountains, and terrain using math-based rendering rather than static images.
-- Archery Physics: Realistic arrow trajectories calculated based on mouse position and player orientation.
 - Wave System: Increasingly difficult waves of enemies with randomized variants and stats managed by a central GameManager.
 - Custom Bitmap Font: A handwritten 5x7 bitmap font system used to render all UI text and the "Game Over" screen without needing external .ttf files.
 - Horde AI: Enemies feature automated movement, health bars, and collision-based damage logic against the player's castle.
