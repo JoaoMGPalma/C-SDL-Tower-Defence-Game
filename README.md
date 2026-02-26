@@ -20,4 +20,5 @@ Installation & Building
 - SDL2 Development Libraries - https://github.com/libsdl-org/SDL/releases
 - SDL2_image Development Libraries - https://github.com/libsdl-org/SDL_image/releases
 
+Screenshots:
 <img width="800" height="602" alt="image" src="https://github.com/user-attachments/assets/c3997890-0d40-4442-a926-4ccbe5e6a753" />
