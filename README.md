@@ -9,13 +9,6 @@ Key Features
 - Custom Bitmap Font: A handwritten 5x7 bitmap font system used to render all UI text and the "Game Over" screen without needing external .ttf files.
 - Horde AI: Enemies feature automated movement, health bars, and collision-based damage logic against the player's castle.
 
-Action----------Control
-Move Left-------A Key
-Move Right------D Key
-Aim-------------Mouse Cursor
-Shoot Arrow-----Spacebar
-
-
 Technical Architecture
 The project follows a clean Object-Oriented Programming (OOP) structure:
 - GameObject / Character: Base classes that handle positioning, health, and basic movement.
