@@ -17,8 +17,8 @@ The project follows a clean Object-Oriented Programming (OOP) structure:
 
 Installation & Building
 
-C++17 Compiler (GCC/Clang/MSVC)
-SDL2 Development Libraries - https://github.com/libsdl-org/SDL/releases
-SDL2_image Development Libraries - https://github.com/libsdl-org/SDL_image/releases
+- C++17 Compiler (GCC/Clang/MSVC)
+- SDL2 Development Libraries - https://github.com/libsdl-org/SDL/releases
+- SDL2_image Development Libraries - https://github.com/libsdl-org/SDL_image/releases
 
 <img width="800" height="602" alt="image" src="https://github.com/user-attachments/assets/c3997890-0d40-4442-a926-4ccbe5e6a753" />
