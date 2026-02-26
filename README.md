@@ -15,7 +15,7 @@ The project follows a clean Object-Oriented Programming (OOP) structure:
 - Legolas & Enemy: Implementation of specific behaviors, including custom primitive-based rendering for characters.
 - MiniGfx.h: An abstraction layer that hides SDL2 boilerplate, making the game code more readable and maintainable.
 
-Installation & Building
+Installation & Building\n
 Prerequisites
 C++17 Compiler (GCC/Clang/MSVC)
 
